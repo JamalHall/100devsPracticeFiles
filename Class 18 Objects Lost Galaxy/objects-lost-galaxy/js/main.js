@@ -9,7 +9,7 @@ let mouse = {
 
 }
 
-//usiing object literal {} brackets look at the difference from the above
+//using object literal {} brackets look at the difference from the above
 let pcMouse = {}
 pcMouse.brand = "logitech"
 pcMouse.buttons = 3
