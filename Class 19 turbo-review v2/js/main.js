@@ -5,6 +5,10 @@ isQuestion.slice(isQuestion.length-1) ==='?' ? alert('This is a Question'): aler
 
 let string = 'Is this the best week ever?'
 alert(string.endsWith('?'))
+console.log(string.endsWith('?'))
+
+alert((isQuestion.includes('?'))?"This is a Question":"This is not a Question")
+console.log((isQuestion.includes('?'))?"This is a Question":"This is not a Question")
 
 //Declare a variable, assign it a string of multiple words, replace every "jr. dev" with "software engineer", and print it to the console
 let multiWord = 'I am looking for jr dev positions. I am a jr dev'
