@@ -1,6 +1,6 @@
 // *Variables*
-// Declare a variable and assign it to a sentance that is a positive affirmation. Print the affirmation to the console multiple times using a method
-let sentVar = 'I am learning so much so fast!' 
+// Declare a variable and assign it to a sentence that is a positive affirmation. Print the affirmation to the console multiple times using a method
+let sentVar = ' I am learning so much so fast!' 
 console.log(sentVar.repeat(12))
  
 //Declare a variable, assign it an array of letters, combine the letters into one word, and alert it 
@@ -17,7 +17,7 @@ function spock(){
     } else if(multiplier<40){
         return 'paper'
         } else if(multiplier<60){
-            return 'sissors'
+            return 'scissors'
         } else if(multiplier<80){
             return 'lizard'
         } else {
@@ -34,11 +34,11 @@ function shallWePlayAGame(human){
     console.log(human)
     let bot=spock()
     console.log(bot)
-        if( human==='rock' && (bot==='sissors' || bot==='lizard') ||
+        if( human==='rock' && (bot==='scissors' || bot==='lizard') ||
             human==='paper' && (bot==='rock' || bot==='spock') ||
-            human==='sissors' && (bot ==='paper' || bot==='lizard') ||
+            human==='scissors' && (bot ==='paper' || bot==='lizard') ||
             human==='lizard' && (bot==='spock' || bot==='paper') || 
-            human==='spock' && (bot==='sissors' || bot==='rock')) {
+            human==='spock' && (bot==='scissors' || bot==='rock')) {
             return console.log('WINNA')
         } else if(human===bot){
             return 'tie'
@@ -46,6 +46,6 @@ function shallWePlayAGame(human){
             return console.log('Loosa')
         }
         }
-        shallWePlayAGame(prompt('ROCK PAPER SISSORS LIZARD SPOCK','spock'))
+        shallWePlayAGame(prompt('ROCK PAPER SCISSORS LIZARD SPOCK','spock'))
         
        
