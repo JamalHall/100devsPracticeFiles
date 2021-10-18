@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>IDC WAR</h1>
+		
+		<label for="decks">Number of Decks to Use (1-5):</label>
+		<input type="number" id="decksNum" name="decks" min="1" max="5" value = "1">
+		<button id="newDeckButton" type="button" name="button">New Deck</button>
+
+		 <div></div>
+
+		<input id=drawNumber type="number" name="Draw Cards" value="2">
+		<button id="drawCard" type="button" name="button">Draw Card</button>
+
+		 
+
+		<h2>player 1</h2>
+		<img id = "player1" src="img/newcards.jfif" alt="p1 card" height="300px" width="200px">
+		
+
+		<h2>player 2</h2>
+		<img id = "player2" src="img/newcards.jfif" alt="p2 card" height="300px" width="200px">
+
+		<h3 id = "winner">Who Won?</h3>
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
