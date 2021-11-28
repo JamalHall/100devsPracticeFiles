@@ -2,7 +2,7 @@
 document.querySelector('#newDeckButton').addEventListener('click', getFetch)
 document.querySelector('#drawCard').addEventListener('click', getFetch2)
 
-// New Deck
+// New Deck   try rewriting using async await syntax
 let deckId = ''
 
 function getFetch(){
