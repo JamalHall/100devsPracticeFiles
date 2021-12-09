@@ -41,7 +41,6 @@ app.get('/api/rappers/:rapperName', (req, res)=>{
     res.json(rappers['unknown'])
 }
 })
-
     
 // the listen method is where and how the server will hear client request
 app.listen(PORT,()=>{ 

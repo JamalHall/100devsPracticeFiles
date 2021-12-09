@@ -5,7 +5,7 @@ document.querySelector('button').addEventListener('click', getRapName)
 
 //async await fetch that is retrieving json and logging
 async function getRapName(){
-    // added an event listener and form element to grab form value from html
+// added an event listener and form element to grab form value from html
 const rapName = document.querySelector('input').value
     try {
     const res = await fetch(`http://localhost:8000/api/rappers/${rapName}`)
